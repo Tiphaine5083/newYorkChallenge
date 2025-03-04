@@ -72,3 +72,11 @@ q {
 .lastpart {
     border-bottom: 2px solid #003884;
 }
+.icon {
+    color: #003884;
+    margin: 0 auto;
+    font-size: 1.9em; 
+}
+.copyright {
+    font-size: 0.875em;
+}
