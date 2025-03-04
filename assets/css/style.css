@@ -2,6 +2,7 @@
     font-family: "Courgette";
     src: url("../font/Courgette-Regular.ttf") format(truetype);
 }
+
 body {
     margin: auto;
     line-height: 1.5;
@@ -11,72 +12,106 @@ body {
     font-size: 1.125em;
     color: #444
 }
+
 img {
     display: block;
     margin: auto;
 }
+
 h1, h2, h3 {
     font-family: "Courgette";
 }
+
 h1 {
     font-size: 2.5em;
     color: #003884;
 }
+
 nav {
     text-align: left;
     font-family: "Courgette";
     font-size: 1.125em;
     color: #003884;
 }
+
+nav > ol > li {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li > a:link {
+    text-decoration: none;
+}
+
+li > a:hover {
+    text-decoration: none;    
+}
+
+li > a:visited {
+    text-decoration: none;  
+}
+
 blockquote {
     font-size: 1.3em;
     font-family: "Courgette";
     color: #003884;
     background-color: #d7e1ef;
 }
+
 cite {
     color: #003884;
     font-size: 0.5em;
 }
+
 h2{
     font-size: 2.2em;
     color: #4f89b9;
 }
+
 h3{
     font-size: 1.6em;
     color: #003884;
     text-align: center;
 }
+
 section{
     text-align: justify;
 }
+
 strong {
     font-weight: bold;
     color: #003884;
 }
+
 em {
     font-style: italic;
     color: #003884;
 }
+
 q {
     font-style: italic;
 }
+
 .drapeau, .brooklyn {
     float: right;
     margin-left: 2%;
 }
+
 .statue, .taxi {
     float: left;
     margin-right: 2%;
 }
+
 .lastpart {
     border-bottom: 2px solid #003884;
 }
+
 .icon {
     color: #003884;
     margin: 0 auto;
     font-size: 1.9em; 
 }
+
 .copyright {
     font-size: 0.875em;
 }
