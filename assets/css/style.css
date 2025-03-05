@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Courgette";
-    src: url("../font/Courgette-Regular.ttf") format(truetype);
+    src: url("../font/Courgette-Regular.ttf") format("truetype");
 }
 
 body {
